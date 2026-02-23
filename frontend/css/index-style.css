@@ -1,10 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 body{
     background: linear-gradient(rgba(234, 246, 252, 0.9), rgba(234, 246, 252, 0.9)), url("../imgs/descarga.svg");
     box-sizing: border-box;
     margin: 0px;
-    
+    font-family: "Quicksand", sans-serif;
 }
 header{
     width: 95%;
@@ -20,36 +20,110 @@ header{
     width: 20px;
     height: 20px;
 }
+
+
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 }
 .seccion-main{
-    width: 95%;
+    width: 70%;
     display: flex;
     justify-content:center ;
+}
+
+
+.imagen-contenedor{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
 }
 .to-do-image{
     width: 200px;
     height: 60px;
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
+
+
 .cuadro-añadir{
-    width: 95%;
+    width: 64%;
     height: 65px;
-    border: 1px solid black;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-bottom: 25px;
 }
+.cuadro-de-texto{
+    width: 67%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 2px solid #33322E;
+    padding-left: 15px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+.boton-añadir{
+    width: 12%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: 2px;
+    border-top: 2px;
+    border-right: 2px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #33322E;
+    background-color: #FFD6E9;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+
+
 .cuadro-lista{
     width: 700px;
     height: 470px;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 15px;
+    border-color: #33322E;
 }
+.titulo-lista{
+    background-color: white;
+    height: 10%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 2px solid #33322E;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.lista-actividades{
+    background-color: white;
+    height: 79%;
+    padding-left: 60px;
+}
+.presentacion{
+    margin: 0px;
+}
+.lista-items{
+    list-style-type: none;
+}
+.lista-contador{
+    background-color: white;
+    height: 10%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: 2px solid #33322E;
+}
+
+
 .cuadro-opciones{
     width: 150px;
     height: 150px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
+    margin-left: 25px;
 }
