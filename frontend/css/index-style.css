@@ -101,8 +101,9 @@ main{
 }
 .lista-actividades{
     background-color: white;
-    height: 79%;
+    height: 67%;
     padding-left: 60px;
+    padding-top: 55px;
 }
 .presentacion{
     margin: 0px;
@@ -122,8 +123,12 @@ main{
 .cuadro-opciones{
     width: 150px;
     height: 150px;
+    background-color: white;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     margin-left: 25px;
+}
+.boton-importar:empty{
+    display: none;
 }
