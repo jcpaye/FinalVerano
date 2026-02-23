@@ -1,3 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 
+body{
+    background: linear-gradient(rgba(234, 246, 252, 0.9), rgba(234, 246, 252, 0.9)), url("../imgs/descarga.svg");
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+header{
+    width: 95%;
+    height: 35px;
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.github-image{
+    width: 20px;
+    height: 20px;
+}
+main{
+    justify-self: center;
+}
+.to-do-image{
+    width: 200px;
+    height: 60px;
+}
+.cuadro-añadir{
+    width: 700px;
+    height: 65px;
+    border: 1px solid black;
+}
+.cuadro-lista{
+    width: 700px;
+    height: 470px;
+    border: 1px solid black;
+}
+.cuadro-opciones{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
