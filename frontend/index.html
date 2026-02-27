@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TodoList</title>
     <link rel="stylesheet" href="css/index-style.css">
+    <script src="js/app.js" defer></script>
 </head>
 <body>
     <header>
@@ -43,9 +44,10 @@
                 </section>
             </section>
             <section class="cuadro-opciones">
-                <button>Abrir</button>
-                <button>Todo</button>
-                <input type="file" accept=".txt, .json" class="boton-importar">
+                <button class="boton-abrir">ABRIR ✨</button>
+                <button class="boton-todo">Todo</button>
+                <input type="file" accept=".txt, .json" class="boton-importar" id="archivo-externo">
+                <label for="archivo-externo" class="importar-label">Importar(txt/json)</label>
             </section>
         </section>
        

@@ -1,0 +1,7 @@
+# === DEPENDENCIAS ===
+backend/node_modules/
+frontend/node_modules/  # por si acaso en el futuro
+node_modules/
+
+# === ENTORNO ===
+backend/.env
